@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.94a3b30f.css",
+    "main.js": "/static/js/main.b061b251.js",
+    "static/media/zalfa.png": "/static/media/zalfa.28470d3ce8834bf2d653.png",
+    "index.html": "/index.html",
+    "main.94a3b30f.css.map": "/static/css/main.94a3b30f.css.map",
+    "main.b061b251.js.map": "/static/js/main.b061b251.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94a3b30f.css",
+    "static/js/main.b061b251.js"
+  ]
+}
