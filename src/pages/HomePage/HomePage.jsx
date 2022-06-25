@@ -1,12 +1,13 @@
 import React, { useState } from "react";
+import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
+import ContactSection from "./ContactSection";
 import IntroSection from "./IntroSection";
+import ProjectSection from "./ProjectSection";
 
 const SectionWrapper = (props) => {
   return (
-    <div className="max-w-8xl mx-auto px-4 md:px-16">
-      {props.children}
-    </div>
+    <div className="max-w-8xl mx-auto px-4 md:px-16">{props.children}</div>
   );
 };
 
@@ -18,11 +19,14 @@ const HomePage = () => {
   };
 
   return (
-    <div className="static">
+    <div className="static bg-zl-white">
       <Navbar handleSidebar={handleSidebar} />
       <SectionWrapper>
         <IntroSection />
+        <ProjectSection />
+        <ContactSection />
       </SectionWrapper>
+      <Footer />
     </div>
   );
 };

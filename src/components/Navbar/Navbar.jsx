@@ -7,7 +7,7 @@ import { FaBars } from "react-icons/fa";
 const NAVBAR_ITEMS = [
   { label: "Intro", to: "intro" },
   { label: "About", to: "about" },
-  { label: "Projects", to: "projects" },
+  { label: "Projects", to: "project" },
   { label: "Contact", to: "contact" },
 ];
 
@@ -65,14 +65,7 @@ const MobileBtn = (props) => {
 };
 
 const Logo = () => {
-  return (
-    <div
-      className="font-Parisienne text-4xl p-2 
-      text-zl-linear-pink-lilac-purple"
-    >
-      Zl
-    </div>
-  );
+  return <div className="font-Parisienne text-4xl p-2 zl-linear-pink">Zl</div>;
 };
 
 export default Navbar;

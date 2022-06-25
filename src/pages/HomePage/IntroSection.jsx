@@ -6,7 +6,7 @@ import { HiDownload } from "react-icons/hi";
 const IntroSection = () => {
   return (
     <div
-      className="flex flex-col-reverse items-start pb-32 pt-40 lg:flex-row"
+      className="flex flex-col-reverse items-start pb-24 pt-40 lg:flex-row"
       id="intro"
     >
       <div className="w-full mr-20 sm:w-[320px] self-center">
@@ -14,7 +14,7 @@ const IntroSection = () => {
       </div>
       <div className="flex flex-col self-center">
         <p className="text-3xl text-zl-black sm:text-7xl self-center">
-          Hello, I'm <span className="bg-zl-peach">Zalfa Luqyana</span>
+          Hello, I'm <span className="bg-zl-pink-light">Zalfa Luqyana</span>
         </p>
         <div className="flex mt-10 items-center">
           <div className="border-b border-zl-brown w-14 mr-6" />
