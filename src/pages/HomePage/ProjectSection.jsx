@@ -17,9 +17,6 @@ const ProjectSection = () => {
 
   const handleButtonLeft = () => {
     if (currentProject.id !== 1) {
-      console.log(
-        projects.find((project) => project.id === currentProject.id - 1)
-      );
       setCurrentProject(
         projects.find((project) => project.id === currentProject.id - 1)
       );
@@ -41,11 +38,14 @@ const ProjectSection = () => {
         <span className="text-3.5xl text-zl-black">Projects</span>
       </div>
       <div className="flex items-center -ml-17">
-        <div className="border border-red-500 p-2 mr-2">
+        <div className="p-2 mr-2">
           <BiChevronLeft
             size={40}
             onClick={handleButtonLeft}
-            className="cursor-pointer"
+            className={classNames(
+              "cursor-pointer",
+              currentProject.id !== 1 ? "text-zl-brown" : "text-zl-grey"
+            )}
           />
         </div>
         <div>
@@ -137,11 +137,16 @@ const ProjectSection = () => {
             </div>
           )}
         </div>
-        <div className="border border-red-500 p-2 ml-2">
+        <div className="p-2 ml-2">
           <BiChevronRight
             size={40}
             onClick={handleButtonRight}
-            className="cursor-pointer"
+            className={classNames(
+              "cursor-pointer",
+              currentProject.id !== projects.length
+                ? "text-zl-brown"
+                : "text-zl-grey"
+            )}
           />
         </div>
       </div>

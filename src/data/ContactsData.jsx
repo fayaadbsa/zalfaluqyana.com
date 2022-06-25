@@ -9,7 +9,7 @@ export const contactsData = [
     name: "Email",
     description: "Send email to contact me directly for professional work.",
     buttonText: "Send Email",
-    buttonUrl: "",
+    url: "",
   },
   {
     id: "2",
@@ -17,7 +17,7 @@ export const contactsData = [
     name: "LinkedIn",
     description: "Let’s connect in LinkedIn!",
     buttonText: "Visit LinkedIn",
-    buttonUrl: "",
+    url: "",
   },
   {
     id: "3",
@@ -25,7 +25,7 @@ export const contactsData = [
     name: "Behance",
     description: "Visit my Behance to see my UI/UX Design projects.",
     buttonText: "Visit Behance",
-    buttonUrl: "",
+    url: "",
   },
   {
     id: "4",
@@ -33,6 +33,6 @@ export const contactsData = [
     name: "Instagram",
     description: "Get to know me better by visiting my Instagram!",
     buttonText: "Visit Instagram",
-    buttonUrl: "",
+    url: "",
   },
 ];

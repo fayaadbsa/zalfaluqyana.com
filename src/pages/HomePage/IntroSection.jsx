@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../../components/Button/Button";
 import ProfilePicture from "../../images/zalfa.png";
 import { HiDownload } from "react-icons/hi";
+import star1 from "../../images/star-1.png";
 
 const IntroSection = () => {
   return (
@@ -13,8 +14,11 @@ const IntroSection = () => {
         <img className="rounded-tl-lg w-80" src={ProfilePicture} alt="Zalfa" />
       </div>
       <div className="flex flex-col self-center">
-        <p className="text-3xl text-zl-black sm:text-7xl self-center">
-          Hello, I'm <span className="bg-zl-pink-light">Zalfa Luqyana</span>
+        <p className="flex text-3xl text-zl-black sm:text-7xl self-center">
+          Hello, I'm<span className="bg-zl-pink-light ml-4">Zalfa Luqyana</span>
+          <div className="relative -mt-5 -ml-5 z-10">
+            <img src={star1} alt="star-1" />
+          </div>
         </p>
         <div className="flex mt-10 items-center">
           <div className="border-b border-zl-brown w-14 mr-6" />

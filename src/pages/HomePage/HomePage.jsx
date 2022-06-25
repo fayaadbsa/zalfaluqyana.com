@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
+import Sidebar from "../../components/Sidebar/Sidebar";
 import ContactSection from "./ContactSection";
 import IntroSection from "./IntroSection";
 import ProjectSection from "./ProjectSection";
@@ -21,6 +22,7 @@ const HomePage = () => {
   return (
     <div className="static bg-zl-white">
       <Navbar handleSidebar={handleSidebar} />
+      <Sidebar />
       <SectionWrapper>
         <IntroSection />
         <ProjectSection />

@@ -19,6 +19,7 @@ module.exports = {
         "zl-purple": "#E8C8FF",
         "zl-aqua": "#7BC5AC",
         "zl-green": "#C1E9DC",
+        "zl-green-dark": "#8BB1A5",
         "zl-green-light": "#EDFDF8",
       },
       fontFamily: {
