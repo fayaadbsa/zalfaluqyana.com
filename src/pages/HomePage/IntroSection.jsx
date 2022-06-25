@@ -16,9 +16,9 @@ const IntroSection = () => {
       <div className="flex flex-col self-center">
         <p className="flex text-3xl text-zl-black sm:text-7xl self-center">
           Hello, I'm<span className="bg-zl-pink-light ml-4">Zalfa Luqyana</span>
-          <div className="relative -mt-5 -ml-5 z-10">
+          <span className="relative -mt-5 -ml-5 z-10">
             <img src={star1} alt="star-1" />
-          </div>
+          </span>
         </p>
         <div className="flex mt-10 items-center">
           <div className="border-b border-zl-brown w-14 mr-6" />
