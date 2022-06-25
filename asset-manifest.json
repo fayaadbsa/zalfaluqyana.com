@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/zalfaluqyana.com/static/css/main.94a3b30f.css",
-    "main.js": "/zalfaluqyana.com/static/js/main.14efcf87.js",
+    "main.css": "/zalfaluqyana.com/static/css/main.39ff0b79.css",
+    "main.js": "/zalfaluqyana.com/static/js/main.d396e49b.js",
     "static/media/zalfa.png": "/zalfaluqyana.com/static/media/zalfa.28470d3ce8834bf2d653.png",
+    "static/media/ukutuner.jpg": "/zalfaluqyana.com/static/media/ukutuner.5cac38b09c488db06f02.jpg",
+    "static/media/darwin.png": "/zalfaluqyana.com/static/media/darwin.f03d108db2d0d947b5cc.png",
     "index.html": "/zalfaluqyana.com/index.html",
-    "main.94a3b30f.css.map": "/zalfaluqyana.com/static/css/main.94a3b30f.css.map",
-    "main.14efcf87.js.map": "/zalfaluqyana.com/static/js/main.14efcf87.js.map"
+    "main.39ff0b79.css.map": "/zalfaluqyana.com/static/css/main.39ff0b79.css.map",
+    "main.d396e49b.js.map": "/zalfaluqyana.com/static/js/main.d396e49b.js.map"
   },
   "entrypoints": [
-    "static/css/main.94a3b30f.css",
-    "static/js/main.14efcf87.js"
+    "static/css/main.39ff0b79.css",
+    "static/js/main.d396e49b.js"
   ]
 }
