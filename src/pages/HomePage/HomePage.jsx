@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import Sidebar from "../../components/Sidebar/Sidebar";
-import ContactSection from "./ContactSection";
-import IntroSection from "./IntroSection";
-import ProjectSection from "./ProjectSection";
+import ContactSection from "../../components/Section/ContactSection";
+import IntroSection from "../../components/Section/IntroSection";
+import ProjectSection from "../../components/Section/ProjectSection";
 
 const SectionWrapper = (props) => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../../components/Button/Button";
+import Button from "../Atomic/Button/Button";
 import ProfilePicture from "../../images/zalfa.png";
 import { HiDownload } from "react-icons/hi";
 import star1 from "../../images/star-1.png";

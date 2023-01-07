@@ -1,5 +1,5 @@
 import React from "react";
-import ContactCard from "../../components/Card/ContactCard";
+import ContactCard from "../Atomic/Card/ContactCard";
 import { contactsData } from "../../data/ContactsData";
 import star2 from "../../images/star-2.png";
 import star3 from "../../images/star-3.png";

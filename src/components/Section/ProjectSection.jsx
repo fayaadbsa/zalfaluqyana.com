@@ -3,7 +3,7 @@ import moment from "moment";
 import React, { useState } from "react";
 import { BiChevronRight, BiChevronLeft, BiCalendarAlt } from "react-icons/bi";
 import { BsArrowRight, BsPersonFill } from "react-icons/bs";
-import Tag from "../../components/Tag/Tag";
+import Tag from "../Atomic/Tag/Tag";
 import { projectsData } from "../../data/ProjectsData";
 import PROJECT_TYPE_ENUM from "../../utils/enumerate";
 
