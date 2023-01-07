@@ -6,7 +6,7 @@ import { FaBars } from "react-icons/fa";
 
 const NAVBAR_ITEMS = [
   { label: "Intro", to: "intro" },
-  { label: "About", to: "about" },
+  // { label: "About", to: "about" },
   { label: "Projects", to: "project" },
   { label: "Contact", to: "contact" },
 ];
@@ -21,7 +21,7 @@ const Navbar = (props) => {
   return (
     <nav
       className="flex sticky items-center justify-between h-16 top-0 
-      -mt-16 px-4 md:px-16 xl:px-32 z-30 bg-zl-grey-light"
+      -mt-16 px-4 md:px-16 xl:px-32 z-30 bg-zl-grey-light shadow-zl-md"
     >
       <LinkRouter
         to="/"
