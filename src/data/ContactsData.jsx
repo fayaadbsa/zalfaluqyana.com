@@ -41,7 +41,7 @@ export const contactsData = [
     sidebarIcon: <IconInstagram />,
     name: "Instagram",
     description: "Get to know me better by visiting my Instagram!",
-    buttonText: "Follow Me",
+    buttonText: "Follow Me on Instagram",
     url: "https://www.instagram.com/zalfaluqyana/",
   },
 ];

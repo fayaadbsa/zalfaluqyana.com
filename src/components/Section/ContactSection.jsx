@@ -26,7 +26,7 @@ const ContactSection = () => {
           <ContactCard contact={contact} />
         ))}
       </div>
-      <div className="absolute bottom-0 right-0 -mr-24">
+      <div className="absolute bottom-0 -right-20">
         <img src={darwin} alt="darwin" />
       </div>
     </div>

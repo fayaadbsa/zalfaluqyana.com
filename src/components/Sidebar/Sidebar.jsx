@@ -14,7 +14,7 @@ const Sidebar = () => {
 
   return (
     <div
-      className="absolute hidden md:block top-96 z-20 ml-4 xl:ml-11 
+      className="absolute hidden md:block top-96 z-20 ml-5 2xl:ml-10 
         transition duration-1000 ease-out"
       style={{ transform: `translateY(${offsetY * 1}px)` }}
     >

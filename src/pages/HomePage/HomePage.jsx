@@ -7,9 +7,7 @@ import IntroSection from "../../components/Section/IntroSection";
 import ProjectSection from "../../components/Section/ProjectSection";
 
 const SectionWrapper = (props) => {
-  return (
-    <div className="max-w-8xl mx-auto px-4 md:px-17.5">{props.children}</div>
-  );
+  return <div className="max-w-7xl w-full mx-auto px-4 md:px-22">{props.children}</div>;
 };
 
 const HomePage = () => {

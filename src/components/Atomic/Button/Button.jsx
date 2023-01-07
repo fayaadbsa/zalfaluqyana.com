@@ -29,7 +29,7 @@ const Button = (props) => {
     >
       <a href={href || "#"} {...props}>
         <div className="flex items-center">
-          {icon && <div className="mr-2">{icon}</div>}
+          {icon && <div style={{ marginRight: "10px" }}>{icon}</div>}
           {props.children}
         </div>
       </a>

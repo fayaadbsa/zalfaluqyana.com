@@ -21,7 +21,7 @@ const Navbar = (props) => {
   return (
     <nav
       className="flex sticky items-center justify-between h-16 top-0 
-      -mt-16 px-4 md:px-16 xl:px-32 z-30 bg-zl-grey-light shadow-zl-md"
+      -mt-16 px-4 md:px-16 2xl:px-32 z-30 bg-zl-grey-light shadow-zl-md"
     >
       <LinkRouter
         to="/"

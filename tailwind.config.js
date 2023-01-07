@@ -40,6 +40,12 @@ module.exports = {
             lineHeight: "40px",
           },
         ],
+        "6.5xl": [
+          "64px",
+          {
+            lineHeight: "102px",
+          },
+        ],
         "7xl": [
           "72px",
           {
@@ -55,7 +61,7 @@ module.exports = {
         17: "68px",
       },
       padding: {
-        17.5: "70px",
+        22: "84px",
       },
       boxShadow: {
         "zl-md": "0px 1px 3px rgba(77, 77, 77, 0.35)",
