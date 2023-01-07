@@ -1,2 +1,2 @@
 # zalfaluqyana.com
-Zalfa's Portfolio Website 💗^💗
+Zalfa Luqyana's Portfolio Website 💗^💗
