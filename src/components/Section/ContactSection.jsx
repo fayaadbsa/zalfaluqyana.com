@@ -21,12 +21,14 @@ const ContactSection = () => {
           <img src={star3} alt="star-3" />
         </div>
       </div>
-      <div className="flex justify-between mt-14">
+      <div className="grid grid-cols-2 xl:grid-cols-4 gap-4 mt-14">
         {contacts.map((contact) => (
-          <ContactCard contact={contact} />
+          <div className="w-full">
+            <ContactCard contact={contact} />
+          </div>
         ))}
       </div>
-      <div className="absolute bottom-0 -right-20">
+      <div className="absolute bottom-0 -right-28">
         <img src={darwin} alt="darwin" />
       </div>
     </div>

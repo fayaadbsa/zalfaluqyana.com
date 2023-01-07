@@ -7,6 +7,7 @@ const lang = {
     subtitle: "a product design enthusiast",
     description:
       "I love to solve problems by creating effective solutions that balance user and business perfectly",
+    download: "Download CV",
   },
 };
 

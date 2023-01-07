@@ -10,14 +10,14 @@ const Button = (props) => {
   return (
     <button
       className={classNames(
-        "text-zl-black",
+        "text-zl-black w-full",
         intent === "primary" && {
           "py-4 px-6 bg-zl-white shadow-zl-md rounded-lg hover:shadow-zl-lg hover:stroke-zl-grey-light transition": true,
           "bg-zl-green-light": onHover,
           "bg-zl-green-dark text-zl-white-secondary": onClick,
         },
         intent === "secondary" && {
-          "py-3 px-6 bg-zl-pink-light border border-zl-black font-medium": true,
+          "py-3 px-5 bg-zl-pink-light border border-zl-black font-medium text-sm": true,
         }
       )}
       onMouseOver={() => setOnHover(true)}
@@ -28,9 +28,9 @@ const Button = (props) => {
       }}
     >
       <a href={href || "#"} {...props}>
-        <div className="flex items-center">
+        <div className="flex items-center justify-center">
           {icon && <div style={{ marginRight: "10px" }}>{icon}</div>}
-          {props.children}
+          <span>{props.children}</span>
         </div>
       </a>
     </button>

@@ -47,14 +47,14 @@ const IntroSection = () => {
         <div className="text-2xl mt-10 text-zl-grey font-light">
           {lang.intro.description}
         </div>
-        <div className="mt-10">
+        <div className="mt-10 w-fit">
           <Button
             href="https://www.youtube.com/watch?v=BL1R39xRhko"
             target="_blank"
             rel="noreferrer"
             icon={<HiDownload size={24} />}
           >
-            <div className="text-xl">Download CV</div>
+            <div className="text-xl">{lang.intro.download}</div>
           </Button>
         </div>
       </div>
