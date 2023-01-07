@@ -14,7 +14,7 @@ const Sidebar = () => {
 
   return (
     <div
-      className="absolute hidden md:block top-96 z-20 ml-4 xl:ml-12 
+      className="absolute hidden md:block top-96 z-20 ml-4 xl:ml-11 
         transition duration-1000 ease-out"
       style={{ transform: `translateY(${offsetY * 1}px)` }}
     >
@@ -26,9 +26,9 @@ const Sidebar = () => {
               aria-label={contact.name}
               target="_blank"
               rel="noreferrer"
-              className="mb-4"
+              className="mb-4 hover:drop-shadow-zl-soft"
             >
-              {React.cloneElement(contact.icon, { size: 24 })}
+              {contact.sidebarIcon}
             </a>
           );
         })}
