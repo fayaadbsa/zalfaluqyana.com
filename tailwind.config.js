@@ -54,6 +54,9 @@ module.exports = {
         15: "60px",
         17: "68px",
       },
+      padding: {
+        17.5: "70px",
+      },
       boxShadow: {
         "zl-md": "0px 1px 3px rgba(77, 77, 77, 0.35)",
         "zl-lg": "4px 2px 10px rgba(0, 0, 0, 0.15)",
