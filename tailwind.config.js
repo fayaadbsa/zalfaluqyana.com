@@ -29,26 +29,26 @@ module.exports = {
       },
       fontSize: {
         "3.5xl": [
-          "2rem",
+          "32px",
           {
-            lineHeight: "2.5rem",
+            lineHeight: "40x",
           },
         ],
         "4.5xl": [
-          "2.625rem",
+          "42px",
           {
-            lineHeight: "2.5rem",
+            lineHeight: "40px",
           },
         ],
         "7xl": [
-          "4.5rem",
+          "72px",
           {
-            lineHeight: "6.75rem",
+            lineHeight: "108px",
           },
         ],
       },
       maxWidth: {
-        "8xl": "90rem",
+        "8xl": "1440px",
       },
       margin: {
         15: "60px",
