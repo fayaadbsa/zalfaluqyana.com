@@ -9,6 +9,9 @@ const lang = {
       "I love to solve problems by creating effective solutions that balance user and business perfectly",
     download: "Download CV",
   },
+  projects:{
+    name: "Projects"
+  }
 };
 
 export default lang;
