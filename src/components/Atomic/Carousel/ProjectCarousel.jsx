@@ -5,9 +5,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import ProjectCard from "../Card/ProjectCard";
 import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
-import { setConfiguration } from "react-grid-system";
-
-setConfiguration({ breakpoints: [576, 768, 992, 1280, 1600, 1920] });
 
 const ProjectCarousel = (props) => {
   const { projects, currentProject, setCurrentProject } = props;

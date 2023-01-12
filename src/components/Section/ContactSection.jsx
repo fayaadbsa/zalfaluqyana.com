@@ -28,7 +28,7 @@ const ContactSection = () => {
           </div>
         ))}
       </div>
-      <div className="absolute bottom-0 -right-28">
+      <div className="absolute bottom-0 right-0 md:-right-10 xl:-right-20 2xl:-right-28">
         <img src={darwin} alt="darwin" />
       </div>
     </div>

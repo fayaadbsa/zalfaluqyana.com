@@ -1,10 +1,7 @@
-import classNames from "classnames";
-import React, { useEffect, useState } from "react";
-import { BiChevronRight, BiChevronLeft } from "react-icons/bi";
+import React, { useState } from "react";
 import { projectsData } from "../../data/ProjectsData";
 import lang from "../../data/lang";
 import ProjectActiveCard from "../Atomic/Card/ProjectActiveCard";
-import ProjectCard from "../Atomic/Card/ProjectCard";
 
 import ProjectCarousel from "../Atomic/Carousel/ProjectCarousel";
 

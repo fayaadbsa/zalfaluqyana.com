@@ -39,7 +39,7 @@ const Navbar = (props) => {
             spy={true}
             exact="true"
             offset={-80}
-            activeClass="!text-zl-black font-medium"
+            activeClass="text-zl-black font-medium"
             className="flex items-center h-full cursor-pointer 
                 text-zl-grey tracking-wider px-6"
           >
