@@ -32,7 +32,7 @@ const ProjectCarousel = (props) => {
       <Swiper
         slidesPerView={"auto"}
         slidesPerGroup={3}
-        spaceBetween={32}
+        spaceBetween={27}
         modules={[Navigation]}
         className="w-full h-full mx-2"
         onBeforeInit={(swiper) => {

@@ -12,7 +12,14 @@ const ContactCard = (props) => {
       </span>
       <span className="text-zl-brown text-sm my-4">{contact.description}</span>
       <div className="mt-auto w-full">
-        <Button intent="secondary">{contact.buttonText}</Button>
+        <Button
+          href={contact.url}
+          intent="secondary"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {contact.buttonText}
+        </Button>
       </div>
     </div>
   );
