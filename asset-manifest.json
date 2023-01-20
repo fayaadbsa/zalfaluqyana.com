@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.c854527f.css",
-    "main.js": "/static/js/main.660cc3d4.js",
+    "main.css": "/static/css/main.37b2c0e2.css",
+    "main.js": "/static/js/main.b53ecaab.js",
     "static/media/zalfa.png": "/static/media/zalfa.28470d3ce8834bf2d653.png",
     "static/media/the-body-shop.png": "/static/media/the-body-shop.48be56fcce147d34f507.png",
     "static/media/coduck-web.png": "/static/media/coduck-web.cbc1b0ac102d30c570c7.png",
     "static/media/coduck-mobile.png": "/static/media/coduck-mobile.c6a82362c29a4ce2c4d7.png",
+    "service-worker.js": "/service-worker.js",
     "static/media/ovo.png": "/static/media/ovo.5a2cfc18c65ce3c4429f.png",
     "static/media/krl-access.png": "/static/media/krl-access.8578be8c2d7e6d7072bc.png",
     "static/media/ukutuner.png": "/static/media/ukutuner.b4c22ecc72b587cef353.png",
@@ -15,11 +16,11 @@
     "static/media/linkedin.svg": "/static/media/linkedin.48131a62b421a34bf946f753b3a74a53.svg",
     "index.html": "/index.html",
     "static/media/email.svg": "/static/media/email.37f71cac7ac58a8e2bb59d102d5b5dc0.svg",
-    "main.c854527f.css.map": "/static/css/main.c854527f.css.map",
-    "main.660cc3d4.js.map": "/static/js/main.660cc3d4.js.map"
+    "main.37b2c0e2.css.map": "/static/css/main.37b2c0e2.css.map",
+    "main.b53ecaab.js.map": "/static/js/main.b53ecaab.js.map"
   },
   "entrypoints": [
-    "static/css/main.c854527f.css",
-    "static/js/main.660cc3d4.js"
+    "static/css/main.37b2c0e2.css",
+    "static/js/main.b53ecaab.js"
   ]
 }
