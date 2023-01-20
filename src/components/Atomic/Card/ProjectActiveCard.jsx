@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { BiCalendarAlt } from "react-icons/bi";
 import { BsArrowRight, BsPersonFill } from "react-icons/bs";
 import Tags from "../Tags/Tags";
 
 const ProjectActiveCard = (props) => {
   const { project } = props;
+  const [titleHover, setTitleHover] = useState(false);
 
   return (
     <div className="flex items-start flex-col shadow-zl-md rounded-3xl p-6 mt-8 min-h-[360px] lg:flex-row">
@@ -17,8 +18,24 @@ const ProjectActiveCard = (props) => {
       </div>
       <div className="flex flex-col mt-6 lg:mt-0">
         <div className="flex items-center">
-          <p className="text-zl-pink-dark text-3.5xl">{project.title}</p>
-          <BsArrowRight className="ml-4 text-zl-pink-dark" size={32} />
+          <a href={project.websiteUrl} target="_blank" rel="noreferrer">
+            <p
+              className="text-zl-pink-dark text-3.5xl"
+              onMouseOver={() => setTitleHover(true)}
+              onMouseLeave={() => setTitleHover(false)}
+            >
+              {project.title}
+            </p>
+          </a>
+          <span
+            style={{
+              opacity: titleHover ? "100%" : "0%",
+              transform: titleHover ? "translateY(0px)" : "translateY(8px)",
+              transitionDuration: "300ms",
+            }}
+          >
+            <BsArrowRight className="ml-4 text-zl-pink-dark" size={32} />
+          </span>
         </div>
         <div className="flex flex-wrap mt-4">
           <Tags tags={project.tags} />

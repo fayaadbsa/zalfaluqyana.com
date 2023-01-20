@@ -49,7 +49,7 @@ const IntroSection = () => {
         </div>
         <div className="mt-10 w-fit">
           <Button
-            href="https://www.youtube.com/watch?v=BL1R39xRhko"
+            href="https://ristek.link/CV-Zalfa-LA"
             target="_blank"
             rel="noreferrer"
             icon={<HiDownload size={24} />}
