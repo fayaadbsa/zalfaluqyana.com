@@ -10,14 +10,14 @@ const ContactSection = () => {
 
   return (
     <div className="relative flex flex-col pb-32" id="contact">
-      <div className="absolute -ml-12 -mt-6 z-10">
+      <div className="absolute -ml-12 -mt-6 z-10 hidden sm:block">
         <img src={star2} alt="star-2" />
       </div>
-      <span className="text-7xl">Interested in working together</span>
+      <span className="text-4xl sm:text-7xl">Interested in working together</span>
       <div className="flex items-center">
-        <span className="text-7xl">with me?</span>
-        <div className="border-b-2 border-b-zl-brown w-[455px] ml-4" />
-        <div className="ml-auto -mt-6 z-10">
+        <span className="min-w-[180px] text-4xl sm:text-7xl">with me?</span>
+        <div className="border-b-2 border-b-zl-brown w-full sm:w-[455px] ml-4" />
+        <div className="ml-auto -mt-6 z-10 hidden sm:block">
           <img src={star3} alt="star-3" />
         </div>
       </div>
@@ -28,7 +28,7 @@ const ContactSection = () => {
           </div>
         ))}
       </div>
-      <div className="absolute bottom-0 right-0 md:-right-10 xl:-right-20 2xl:-right-28">
+      <div className="absolute bottom-0 right-0 md:-right-10 xl:-right-20 2xl:-right-28 hidden sm:block">
         <img src={darwin} alt="darwin" />
       </div>
     </div>

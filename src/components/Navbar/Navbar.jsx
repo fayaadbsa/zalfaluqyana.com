@@ -3,13 +3,7 @@ import { animateScroll as scroll } from "react-scroll";
 import { Link as LinkRouter } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 import { FaBars } from "react-icons/fa";
-
-const NAVBAR_ITEMS = [
-  { label: "Intro", to: "intro" },
-  // { label: "About", to: "about" },
-  { label: "Projects", to: "project" },
-  { label: "Contact", to: "contact" },
-];
+import { NAVBAR_ITEMS } from "../../data/NavbarData";
 
 const Navbar = (props) => {
   const { handleSidebar } = props;
