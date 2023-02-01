@@ -36,7 +36,6 @@ const ProjectCarousel = (props) => {
           swiperRef.current = swiper;
         }}
         onSlideChange={(state) => {
-          setIsBeginning(state);
           setIsBeginning(state.isBeginning);
           setIsEnd(state.isEnd);
         }}
