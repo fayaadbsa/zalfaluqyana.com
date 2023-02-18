@@ -5,7 +5,7 @@ import Sidebar from "../../components/Sidebar/Sidebar";
 import ContactSection from "../../components/Section/ContactSection";
 import IntroSection from "../../components/Section/IntroSection";
 import ProjectSection from "../../components/Section/ProjectSection";
-import Mobilebar from "../../components/MobileBar";
+import MobileBar from "../../components/MobileBar/MobileBar";
 
 const SectionWrapper = (props) => {
   return (
@@ -25,7 +25,7 @@ const HomePage = () => {
   return (
     <div className="flex flex-col min-h-screen bg-zl-white">
       <Navbar handleSidebar={handleSidebar} />
-      <Mobilebar isOpen={isOpen} handleSidebar={handleSidebar} />
+      <MobileBar isOpen={isOpen} handleSidebar={handleSidebar} />
       <Sidebar />
       <SectionWrapper>
         <IntroSection />
