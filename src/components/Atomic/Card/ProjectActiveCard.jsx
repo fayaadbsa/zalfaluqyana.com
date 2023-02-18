@@ -10,8 +10,8 @@ const ProjectActiveCard = (props) => {
   const [titleHover, setTitleHover] = useState(false);
 
   return (
-    <div className="flex items-start flex-col shadow-zl-md rounded-3xl p-6 mt-8 
-      min-h-[360px] lg:flex-row items-center">
+    <div className="flex items-center flex-col shadow-zl-md rounded-3xl p-6 mt-8 
+      min-h-[360px] lg:flex-row">
       <div className="flex min-w-full w-full mr-6 sm:min-w-[390px] sm:w-[390px]">
         <img
           className="w-[391px] object-contain"
