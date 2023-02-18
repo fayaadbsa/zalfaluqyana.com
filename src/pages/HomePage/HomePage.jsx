@@ -6,14 +6,7 @@ import ContactSection from "../../components/Section/ContactSection";
 import IntroSection from "../../components/Section/IntroSection";
 import ProjectSection from "../../components/Section/ProjectSection";
 import MobileBar from "../../components/MobileBar/MobileBar";
-
-const SectionWrapper = (props) => {
-  return (
-    <div className="max-w-7xl w-full mx-auto px-4 md:px-22">
-      {props.children}
-    </div>
-  );
-};
+import SectionWrapper from "../../utils/SectionWrapper";
 
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
