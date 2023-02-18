@@ -17,14 +17,14 @@ const lang = {
     },
   },
   project: {
-    id: "projects",
+    id: "project",
     name: "Projects",
     button: {
       label: "View Detail",
     },
   },
   contact: {
-    id: "contacts",
+    id: "contact",
     name: "Contacts",
     title: {
       first: "Interested in working together",
