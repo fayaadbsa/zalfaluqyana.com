@@ -43,7 +43,7 @@ const ProjectCarousel = (props) => {
         <div className="hidden mt-8 md:flex">
           {projects.slice(0, 6).map((project, index) => {
             return (
-              <SwiperSlide className="w-[188px] h-24">
+              <SwiperSlide className="!w-[188px] !h-24">
                 <ProjectCard
                   index={index}
                   project={project}
