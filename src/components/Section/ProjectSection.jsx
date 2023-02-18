@@ -11,10 +11,10 @@ const ProjectSection = () => {
 
   return (
     projects && (
-      <div className="flex flex-col pb-24" id="project">
+      <div className="flex flex-col pb-24" id={lang.project.id}>
         <div className="flex items-center">
           <div className="border-b border-b-zl-black  w-10 mr-4" />
-          <span className="text-3.5xl text-zl-black">{lang.projects.name}</span>
+          <span className="text-3.5xl text-zl-black">{lang.project.name}</span>
         </div>
         <ProjectActiveCard project={currentProject} />
         <ProjectCarousel

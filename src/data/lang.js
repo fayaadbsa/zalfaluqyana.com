@@ -1,5 +1,6 @@
 const lang = {
   intro: {
+    id: "intro",
     title: {
       greet: "Hello, I'm",
       name: "Zalfa Luqyana",
@@ -15,11 +16,23 @@ const lang = {
       label: "Download CV",
     },
   },
-  projects: {
+  project: {
+    id: "projects",
     name: "Projects",
     button: {
       label: "View Detail",
     },
+  },
+  contact: {
+    id: "contacts",
+    name: "Contacts",
+    title: {
+      first: "Interested in working together",
+      second: "with me?",
+    },
+  },
+  footer: {
+    title: "Made with 💛 by F & Z",
   },
 };
 

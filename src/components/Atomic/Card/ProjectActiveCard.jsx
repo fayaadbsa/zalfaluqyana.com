@@ -58,7 +58,7 @@ const ProjectActiveCard = (props) => {
           target="_blank"
           rel="noreferrer"
         >
-          {lang.projects.button.label}
+          {lang.project.button.label}
         </Button>
         <p
           className="mt-4 text-zl-brown"

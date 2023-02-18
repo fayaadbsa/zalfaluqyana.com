@@ -9,7 +9,7 @@ const IntroSection = () => {
   return (
     <div
       className="flex flex-col items-start justify-center pb-24 pt-40 lg:flex-row"
-      id="intro"
+      id={lang.intro.id}
     >
       <div className="mr-0 mb-6 lg:mb-0 lg:mr-8 self-center w-full sm:w-[320px]">
         <img

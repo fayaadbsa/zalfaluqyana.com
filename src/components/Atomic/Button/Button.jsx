@@ -2,13 +2,21 @@ import React, { useState } from "react";
 import classNames from "classnames";
 
 const Button = (props) => {
-  const { href, icon, intent = "primary", className, ...rest } = props;
+  const {
+    href,
+    target,
+    rel,
+    icon,
+    intent = "primary",
+    className,
+    ...rest
+  } = props;
 
   const [onClick, setOnClick] = useState(false);
   const [onHover, setOnHover] = useState(false);
 
   return (
-    <a href={href || "#"}>
+    <a href={href || "#"} target={target} rel={rel}>
       <button
         className={classNames(
           "text-zl-black w-full",
