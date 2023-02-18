@@ -21,8 +21,8 @@ const ProjectCarousel = (props) => {
     <div className="flex flex-row w-full mt-8 items-center">
       <BiChevronLeft
         size={40}
-        className={`cursor-pointer relative mt-0 ${
-          isBeginning ? "text-zl-grey" : "text-zl-brown"
+        className={`relative mt-0 ${
+          isBeginning ? "text-zl-grey" : "text-zl-brown cursor-pointer"
         }`}
         onClick={() => swiperRef.current?.slidePrev()}
       />
@@ -57,8 +57,8 @@ const ProjectCarousel = (props) => {
       </Swiper>
       <BiChevronRight
         size={40}
-        className={`cursor-pointer relative mt-0 ${
-          isEnd ? "text-zl-grey" : "text-zl-brown"
+        className={`relative mt-0 ${
+          isEnd ? "text-zl-grey" : "text-zl-brown cursor-pointer"
         }`}
         onClick={() => swiperRef.current?.slideNext()}
       />
