@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { BiCalendarAlt } from "react-icons/bi";
 import { BsArrowRight, BsPersonFill } from "react-icons/bs";
+import lang from "../../../data/lang";
+import Button from "../Button/Button";
 import Tags from "../Tags/Tags";
 
 const ProjectActiveCard = (props) => {
@@ -48,8 +50,17 @@ const ProjectActiveCard = (props) => {
           <BsPersonFill size={16} className="mr-4" />
           <p>{project.type}</p>
         </div>
+        <Button
+          className="w-fit mt-4"
+          href={project.websiteUrl}
+          intent="secondary"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {lang.projects.button.label}
+        </Button>
         <p
-          className="mt-6 text-zl-brown"
+          className="mt-4 text-zl-brown"
           style={{
             maxWidth: "100%",
             // display: "-webkit-box",

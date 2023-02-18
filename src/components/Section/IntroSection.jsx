@@ -15,7 +15,7 @@ const IntroSection = () => {
         <img
           className="rounded-tl-lg"
           src={ProfilePicture}
-          alt="Zalfa"
+          alt={lang.intro.picture.alt}
         />
       </div>
       <div className="flex flex-col self-center" style={{ maxWidth: "787px" }}>
@@ -48,12 +48,12 @@ const IntroSection = () => {
         </div>
         <div className="mt-10 w-fit">
           <Button
-            href="https://ristek.link/CV-Zalfa-LA"
+            href={lang.intro.resume.link}
             target="_blank"
             rel="noreferrer"
             icon={<HiDownload size={24} />}
           >
-            <div className="text-xl">{lang.intro.download}</div>
+            <div className="text-xl">{lang.intro.resume.label}</div>
           </Button>
         </div>
       </div>
