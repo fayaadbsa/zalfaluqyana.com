@@ -1,10 +1,12 @@
 import ovoImg from "../images/projects/thumbnail/ovo.png";
+import kChuImg from "../images/projects/thumbnail/k-chu.png";
 import ukutunerImg from "../images/projects/thumbnail/ukutuner.png";
 import krlAccessImg from "../images/projects/thumbnail/krl-access.png";
 import coduckWebImg from "../images/projects/thumbnail/coduck-web.png";
 import coduckMobileImg from "../images/projects/thumbnail/coduck-mobile.png";
 import theBodyShopImg from "../images/projects/thumbnail/the-body-shop.png";
 import ovoActiveImg from "../images/projects/active/ovo.png";
+import kChuActiveImg from "../images/projects/active/k-chu.png";
 import ukutunerActiveImg from "../images/projects/active/ukutuner.png";
 import krlAccessActiveImg from "../images/projects/active/krl-access.png";
 import coduckWebActiveImg from "../images/projects/active/coduck-web.png";
@@ -51,6 +53,24 @@ export const projectsData = [
   },
   {
     id: 3,
+    img: kChuImg,
+    activeImg: kChuActiveImg,
+    alt: "K-Chu Mobile App",
+    title: "K-Chu Mobile App",
+    desc: "K-Chu is a mobile app provided by Kopi Chuseyo, a coffee shop company, for Indonesian K-pop fans. With this app, Kpopers will be able to see K-Pop events to attend, vote for their favorite idol to get benefits, and chat with fellow Kpopers with the same interest.",
+    websiteUrl:
+      "https://www.behance.net/gallery/166681117/K-Chu-Mobile-App-A-Platform-for-K-Pop-Fans",
+    period: "March-June 2022",
+    tags: [
+      TAG_ENUM.MOBILE_APP,
+      TAG_ENUM.KPOP,
+      TAG_ENUM.PRODUCT_DESIGN,
+      TAG_ENUM.UI_DESIGN,
+    ],
+    type: PROJECT_TYPE_ENUM.PERSONAL,
+  },
+  {
+    id: 4,
     img: theBodyShopImg,
     activeImg: theBodyShopActiveImg,
     alt: "The Body Shop",
@@ -68,7 +88,7 @@ export const projectsData = [
     type: PROJECT_TYPE_ENUM.PERSONAL,
   },
   {
-    id: 4,
+    id: 5,
     img: krlAccessImg,
     activeImg: krlAccessActiveImg,
     alt: "KRL Access",
@@ -85,7 +105,7 @@ export const projectsData = [
     type: PROJECT_TYPE_ENUM.PERSONAL,
   },
   {
-    id: 5,
+    id: 6,
     img: coduckMobileImg,
     activeImg: coduckMobileActiveImg,
     alt: "Coduck (Mobile App)",
@@ -102,7 +122,7 @@ export const projectsData = [
     type: PROJECT_TYPE_ENUM.PERSONAL,
   },
   {
-    id: 6,
+    id: 7,
     img: ukutunerImg,
     activeImg: ukutunerActiveImg,
     alt: "Ukutuner",

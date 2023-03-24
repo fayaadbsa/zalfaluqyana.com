@@ -18,6 +18,7 @@ const TAG_ENUM = {
   GAME: "Game",
   MUSIC: "Music",
   UI_DESIGN: "UI Design",
+  KPOP: "K-Pop"
 };
 
 export { PROJECT_TYPE_ENUM, TAG_ENUM };
