@@ -8,7 +8,7 @@ const ProjectCard = (props) => {
     <div
       onClick={() => setCurrentProjectId(index)}
       className={classNames(
-        "text-center rounded-lg cursor-pointer border-2 w-[188px] h-24",
+        "text-center rounded-lg cursor-pointer border-2 w-[188px] h-24 px-2",
         isActive ? "border-zl-pink-dark" : "border-transparent"
       )}
     >
