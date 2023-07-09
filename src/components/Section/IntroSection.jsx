@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../Atomic/Button/Button";
 import ProfilePicture from "../../images/zalfa.png";
-import { HiDownload } from "react-icons/hi";
+import { HiOutlineExternalLink } from "react-icons/hi";
 import star1 from "../../images/star-1.png";
 import lang from "../../data/lang";
 
