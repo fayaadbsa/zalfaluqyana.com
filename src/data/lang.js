@@ -12,7 +12,7 @@ const lang = {
     description:
       "I love to solve problems by creating effective solutions that balance user and business perfectly",
     resume: {
-      link: "https://ristek.link/Resume-ZalfaLA",
+      link: "https://ristek.link/CV-ZalfaLuqyana",
       label: "Download CV",
     },
   },
