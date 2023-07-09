@@ -14,7 +14,7 @@ const ProjectCard = (props) => {
     >
       <div
         className={`bg-cover bg-center rounded-md h-full py-8  
-                      ${isActive ? "opacity-50" : "brightness-45"}`}
+                      ${isActive ? "opacity-20" : "brightness-45"}`}
         style={{
           backgroundImage: `url(${project.img})`,
         }}
