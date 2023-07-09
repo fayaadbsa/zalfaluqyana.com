@@ -5,6 +5,7 @@ import krlAccessImg from "../images/projects/thumbnail/krl-access.png";
 import coduckWebImg from "../images/projects/thumbnail/coduck-web.png";
 import coduckMobileImg from "../images/projects/thumbnail/coduck-mobile.png";
 import theBodyShopImg from "../images/projects/thumbnail/the-body-shop.png";
+import wceImg from "../images/projects/thumbnail/wce.png";
 import ovoActiveImg from "../images/projects/active/ovo.png";
 import kChuActiveImg from "../images/projects/active/k-chu.png";
 import ukutunerActiveImg from "../images/projects/active/ukutuner.png";
@@ -12,11 +13,29 @@ import krlAccessActiveImg from "../images/projects/active/krl-access.png";
 import coduckWebActiveImg from "../images/projects/active/coduck-web.png";
 import coduckMobileActiveImg from "../images/projects/active/coduck-mobile.png";
 import theBodyShopActiveImg from "../images/projects/active/the-body-shop.png";
+import wceActiveImg from "../images/projects/active/wce.png";
 import { PROJECT_TYPE_ENUM, TAG_ENUM } from "../utils/enumerate";
 
 export const projectsData = [
   {
     id: 1,
+    img: wceImg,
+    activeImg: wceActiveImg,
+    alt: "Weekend Career Expo by UI WIB",
+    title: "Weekend Career Expo by UI WIB",
+    desc: "Weekend Career Expo by UI Women in Business aims to not only help graduates and students find the right job, but also to help employers acquire top-notch human resources.",
+    websiteUrl: "https://uiwomeninbusiness.com/",
+    period: "February - July 2023",
+    tags: [
+      TAG_ENUM.DESKTOP_WEBSITE,
+      TAG_ENUM.MOBILE_WEBSITE,
+      TAG_ENUM.PRODUCT_DESIGN,
+      TAG_ENUM.UI_DESIGN,
+    ],
+    type: PROJECT_TYPE_ENUM.PERSONAL_PROJECT,
+  },
+  {
+    id: 2,
     img: ovoImg,
     activeImg: ovoActiveImg,
     alt: "OVO Case Study",
@@ -31,10 +50,10 @@ export const projectsData = [
       TAG_ENUM.DESIGN_THINKING,
       TAG_ENUM.USER_RESEARCH,
     ],
-    type: PROJECT_TYPE_ENUM.PERSONAL,
+    type: PROJECT_TYPE_ENUM.PERSONAL_CASE_STUDY,
   },
   {
-    id: 2,
+    id: 3,
     img: coduckWebImg,
     activeImg: coduckWebActiveImg,
     alt: "Coduck (Web)",
@@ -49,10 +68,10 @@ export const projectsData = [
       TAG_ENUM.PRODUCT_DESIGN,
       TAG_ENUM.USER_CENTERED_DESIGN,
     ],
-    type: PROJECT_TYPE_ENUM.GROUP,
+    type: PROJECT_TYPE_ENUM.COLLEGE_GROUP,
   },
   {
-    id: 3,
+    id: 4,
     img: kChuImg,
     activeImg: kChuActiveImg,
     alt: "K-Chu Mobile App",
@@ -67,10 +86,10 @@ export const projectsData = [
       TAG_ENUM.PRODUCT_DESIGN,
       TAG_ENUM.UI_DESIGN,
     ],
-    type: PROJECT_TYPE_ENUM.PERSONAL,
+    type: PROJECT_TYPE_ENUM.PERSONAL_INTERNSHIP,
   },
   {
-    id: 4,
+    id: 5,
     img: theBodyShopImg,
     activeImg: theBodyShopActiveImg,
     alt: "The Body Shop",
@@ -88,7 +107,7 @@ export const projectsData = [
     type: PROJECT_TYPE_ENUM.PERSONAL,
   },
   {
-    id: 5,
+    id: 6,
     img: krlAccessImg,
     activeImg: krlAccessActiveImg,
     alt: "KRL Access",
@@ -105,7 +124,7 @@ export const projectsData = [
     type: PROJECT_TYPE_ENUM.PERSONAL,
   },
   {
-    id: 6,
+    id: 7,
     img: coduckMobileImg,
     activeImg: coduckMobileActiveImg,
     alt: "Coduck (Mobile App)",
@@ -122,7 +141,7 @@ export const projectsData = [
     type: PROJECT_TYPE_ENUM.PERSONAL,
   },
   {
-    id: 7,
+    id: 8,
     img: ukutunerImg,
     activeImg: ukutunerActiveImg,
     alt: "Ukutuner",

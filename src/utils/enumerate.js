@@ -1,6 +1,9 @@
 const PROJECT_TYPE_ENUM = {
   PERSONAL: "Personal Work",
-  GROUP: "Group Project",
+  PERSONAL_PROJECT: "Personal Project Work",
+  PERSONAL_CASE_STUDY: "Personal Case Study Work",
+  PERSONAL_INTERNSHIP: "Personal Internship Work",
+  COLLEGE_GROUP: "College Group Project"
 };
 
 const TAG_ENUM = {
@@ -18,7 +21,9 @@ const TAG_ENUM = {
   GAME: "Game",
   MUSIC: "Music",
   UI_DESIGN: "UI Design",
-  KPOP: "K-Pop"
+  KPOP: "K-Pop",
+  DESKTOP_WEBSITE: "Desktop Website",
+  MOBILE_WEBSITE: "Mobile Website"
 };
 
 export { PROJECT_TYPE_ENUM, TAG_ENUM };
