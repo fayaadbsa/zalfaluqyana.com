@@ -8,12 +8,12 @@ const ProjectCard = (props) => {
     <div
       onClick={() => setCurrentProjectId(index)}
       className={classNames(
-        "text-center rounded-lg cursor-pointer border-2 w-[188px] h-24 px-2",
+        "text-center rounded-lg cursor-pointer border-2 w-[188px] h-24",
         isActive ? "border-zl-pink-dark" : "border-transparent"
       )}
     >
       <div
-        className={`bg-cover bg-center rounded-md h-full py-8  
+        className={`bg-cover bg-center rounded-md h-full py-8 px-2 
                       ${isActive ? "opacity-20" : "brightness-45"}`}
         style={{
           backgroundImage: `url(${project.img})`,
