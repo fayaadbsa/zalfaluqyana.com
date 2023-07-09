@@ -51,7 +51,7 @@ const IntroSection = () => {
             href={lang.intro.resume.link}
             target="_blank"
             rel="noreferrer"
-            icon={<HiDownload size={24} />}
+            icon={<HiOutlineExternalLink size={24} />}
           >
             <div className="text-xl">{lang.intro.resume.label}</div>
           </Button>
