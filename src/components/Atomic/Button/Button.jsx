@@ -16,7 +16,7 @@ const Button = (props) => {
   const [onHover, setOnHover] = useState(false);
 
   return (
-    <a href={href || "#"} target={target} rel={rel}>
+    <a href={href || "#"} target={target} rel={rel} className="w-fit">
       <button
         className={classNames(
           "text-zl-black w-full",
