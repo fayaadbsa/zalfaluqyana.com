@@ -6,25 +6,36 @@ import ContactSection from "../../components/Section/ContactSection";
 import IntroSection from "../../components/Section/IntroSection";
 import ProjectSection from "../../components/Section/ProjectSection";
 import MobileBar from "../../components/MobileBar/MobileBar";
-import SectionWrapper from "../../utils/SectionWrapper";
+import { useInView } from "react-intersection-observer";
+import clsx from "clsx";
 
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+  });
 
   const handleSidebar = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-zl-white">
+    <div className={clsx("flex flex-col min-h-screen bg-zl-white")}>
       <Navbar handleSidebar={handleSidebar} />
       <MobileBar isOpen={isOpen} handleSidebar={handleSidebar} />
       <Sidebar />
-      <SectionWrapper>
+      <div
+        ref={ref}
+        className={clsx(
+          "max-w-7xl w-full mx-auto px-4 md:px-22",
+          "transition-all duration-700 delay-300",
+          inView ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+        )}
+      >
         <IntroSection />
         <ProjectSection />
         <ContactSection />
-      </SectionWrapper>
+      </div>
       <Footer />
     </div>
   );

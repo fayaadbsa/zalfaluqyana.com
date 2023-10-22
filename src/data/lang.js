@@ -12,8 +12,8 @@ const lang = {
     description:
       "I love to solve problems by creating effective solutions that balance user and business perfectly",
     resume: {
-      link: "ristek.link/CVZalfaLuqyanaAkifah",
-      label: "Download CV",
+      link: "https://ristek.link/CVZalfaLuqyanaAkifah",
+      label: "View CV",
     },
   },
   project: {
