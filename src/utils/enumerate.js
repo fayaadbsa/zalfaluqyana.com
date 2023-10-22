@@ -23,7 +23,8 @@ const TAG_ENUM = {
   UI_DESIGN: "UI Design",
   KPOP: "K-Pop",
   DESKTOP_WEBSITE: "Desktop Website",
-  MOBILE_WEBSITE: "Mobile Website"
+  MOBILE_WEBSITE: "Mobile Website",
+  MEDICAL_APP: "Medical App"
 };
 
 export { PROJECT_TYPE_ENUM, TAG_ENUM };
